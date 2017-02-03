@@ -11,7 +11,7 @@ public class HelloController {
 
   @RequestMapping(method = RequestMethod.GET, value = "/{name}")
   public String sayHello(@PathVariable("name") String name) {
-    return name + " from the server";
+    return name + " ! Welcome to TomCat !";
   }
 
 }
