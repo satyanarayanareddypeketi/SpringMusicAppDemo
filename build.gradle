@@ -35,12 +35,6 @@ ext {
   tomcatVersion="7.0.50"
 }
 
-test {
-    filter {
-        includeTestsMatching "**"
-    }
-}
-
 cobertura {
     coverageFormats = ['html', 'xml']							
     coverageReportDir = new File("$buildDir/cobertura")	
