@@ -2,6 +2,10 @@ apply plugin: "eclipse"
 apply plugin: "idea"
 apply plugin: "war"
 apply plugin: "tomcat"
+apply plugin: "base"
+apply plugin: "maven"
+apply plugin: "groovy"
+apply plugin: "cobertura"
 
 war { baseName='hello-world' }
 
@@ -24,6 +28,18 @@ ext {
   springVersion="4.0.1.RELEASE"
   tomcatVersion="7.0.50"
 }
+
+test {
+    filter {
+        includeTestsMatching "**"
+    }
+}
+
+cobertura {
+    coverageFormats = ['html', 'xml']							
+    coverageReportDir = new File("$buildDir/cobertura")	
+}
+
 
 dependencies {
 
