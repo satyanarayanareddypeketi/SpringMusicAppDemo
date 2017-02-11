@@ -11,6 +11,8 @@ apply plugin: "cobertura"
 war { baseName='hello-world' }
 
 sourceCompatibility = 1.7
+version = '1.0.0-SNAPSHOT'
+group = 'com.cj'
 
 buildscript {
   repositories {
