@@ -1,0 +1,6 @@
+---
+applications:
+- name: hello-world
+  memory: 512M
+  host: hello-world-spring-app
+  path: build/libs/hello-world-1.0.0-SNAPSHOT.war
