@@ -27,7 +27,7 @@ public class HelloControllerTest {
 
   @Autowired
   private WebApplicationContext wac;
-  private MockMvc mockMvc;
+  private MockMvc mockMvc; 
 
   @Before
   public void setup() throws Exception {
