@@ -8,7 +8,7 @@ import org.springframework.web.filter.HiddenHttpMethodFilter;
 import org.springframework.web.filter.HttpPutFormContentFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import com.hello.AppConfig;
+import com.hello.AppConfig; 
 import com.hello.WebConfig;
 
 public class ServletInitializer extends
