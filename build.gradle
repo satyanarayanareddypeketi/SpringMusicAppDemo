@@ -6,7 +6,7 @@ apply plugin: "tomcat"
 apply plugin: "base"
 apply plugin: "maven"
 apply plugin: "groovy"
-apply plugin: "cobertura"
+apply plugin: "cobertura" 
 
 war { baseName='hello-world' }
 
