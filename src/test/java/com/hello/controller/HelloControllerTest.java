@@ -43,6 +43,6 @@ public class HelloControllerTest {
         .andExpect(status().isOk())
         .andExpect(
             content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
-        .andExpect(content().string(name + " ! Welcome to India !"));
+        .andExpect(content().string(name + " ! Welcome to New York !"));
   } 
 }
