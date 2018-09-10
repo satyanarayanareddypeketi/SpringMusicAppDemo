@@ -41,7 +41,9 @@ cobertura {
     coverageFormats = ['html', 'xml']							
     coverageReportDir = new File("$buildDir/cobertura")	
 }
-
+test {
+	ignoreFailures = true
+}
 
 dependencies {
 
